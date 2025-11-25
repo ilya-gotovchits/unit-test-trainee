@@ -1,0 +1,18 @@
+{
+  "name": "password-validator",
+  "version": "1.0.0",
+  "description": "Training project for introduction to unit testing",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest --coverage",
+    "start": "tsx src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "4.20.6",
+    "typescript": "4.9.5",
+    "vitest": "3.2.4"
+  }
+}
